@@ -1,0 +1,9 @@
+<div class = "f-container" style="border:black; border-width:thin; border-style:solid;">
+<form class = "child" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+    <label>Login </label>
+    <input class="form-control" id="username" type="text" formControlName="username" placeholder="Enter Username">
+    <input class="form-control" id="password" type="password" formControlName="password" placeholder="Enter Password">
+    <button class="btn btn-primary" type="submit">Login</button> 
+</form>
+</div>

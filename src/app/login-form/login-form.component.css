@@ -1,0 +1,12 @@
+.f-container{
+    display: inline-block;
+    margin: 25px;
+}
+
+.child{
+    margin: 50px;
+}
+
+.form-control {
+    margin: 10px;
+}
